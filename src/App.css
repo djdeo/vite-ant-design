@@ -1,4 +1,4 @@
-@import 'antd/dist/antd.css';
+@import "antd/dist/antd.css";
 
 .App {
   text-align: center;
@@ -14,7 +14,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+fieldset {
+  display: block;
+  width: 400px;
+  margin: 25% auto;
+  border: 1px solid #1890ff;
+  padding: 2rem;
+  border-radius: 8px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
